@@ -1,0 +1,11 @@
+.entry-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D3748;
+}
+
+.form-box {
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 30%);
+}

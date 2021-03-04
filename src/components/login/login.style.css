@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: #2D3748;
+}
+
+.loginButton {
+    background-color: #7d98c5!important;
+    width: 50%;
+    margin: 0;
+    position: relative;
+    left: 25%;
+    border: 0!important;
+}
+
+.loginButton:hover {
+    background-color: #2D3748!important;
+}
+
+a.forgotPassword {
+    margin: 0;
+    position: relative;
+    left: 23.5%;
+}
+
+a.signUp {
+    margin: 0;
+    position: relative;
+    top: 20%;
+    left: 37%!important;
+}
