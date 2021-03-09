@@ -1,0 +1,38 @@
+.default-layout {
+    display: grid;
+    grid-template-rows: 80px auto 3rem;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+}
+
+header {
+    grid-area: header;
+    background: #2D3748;
+}
+header .navLinks {
+    color: white!important;
+    background: #2D3748;
+}
+
+header button.navbar-toggler.collapsed {
+    border: 0;
+}
+
+header .navbar-dark .navbar-toggler {
+    border: 0!important;
+}
+
+
+main {
+    grid-area: main;
+    min-height: 88vh;
+}
+
+footer {
+    grid-area: footer;
+    background: black;
+    padding: 1rem;
+    color: white;
+}
